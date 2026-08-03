@@ -1,8 +1,8 @@
 import { Modal, ModalBody, ModalContent, ModalFooter, ModalHeader } from '@nextui-org/react';
 import { EyeOpenIcon } from '@radix-ui/react-icons';
 import React from 'react';
-import { Button } from '../button';
 import MDPreview from '../MDPreview';
+import { Button } from '../ui/button';
 interface ChangelogDialogProps {
     isOpen: boolean;
     onClose: () => void;

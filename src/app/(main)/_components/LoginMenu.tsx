@@ -8,7 +8,7 @@ import * as React from 'react';
 import { FaBug, FaGithub, FaGoogle, FaNewspaper, FaWpexplorer } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
 import useSettings from '../_hooks/useSettings';
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from './dropdown-menu';
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from './ui/dropdown-menu';
 
 interface LoginMenuProps {
     onLogOut: () => void;

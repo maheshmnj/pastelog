@@ -18,12 +18,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import Analytics from '../_services/Analytics';
 import LogService from '../_services/logService';
-import { DatePicker } from './DatePicker';
 import ImportDialog from './Dialog/Import';
 import Editor from './Editor';
 import PSInput from './PSInput';
-import ShortcutWrapper from './ShortCutWrapper';
-import { Button } from './button';
 import {
     Select,
     SelectContent,
@@ -31,7 +28,10 @@ import {
     SelectItem,
     SelectTrigger,
     SelectValue
-} from './select';
+} from './ui/select';
+import ShortcutWrapper from './ShortCutWrapper';
+import { Button } from './ui/button';
+import { DatePicker } from './ui/DatePicker';
 
 export default function Pastelog({ id }: { id?: string }) {
 

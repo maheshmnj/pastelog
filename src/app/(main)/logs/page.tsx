@@ -3,6 +3,7 @@
 import { useSearchParams } from 'next/navigation';
 import { Suspense } from 'react';
 import Pastelog from '../_components/Pastelog';
+import PastelogEditor from '../_components/PastelogEditor';
 
 function LogsContent() {
     const searchParams = useSearchParams()
@@ -10,7 +11,7 @@ function LogsContent() {
     return (
         <div className={'grow'}>
             <div className="flex flex-col h-full">
-                <Pastelog id={id!} />
+                <PastelogEditor id={id!} />
             </div>
         </div>
     );

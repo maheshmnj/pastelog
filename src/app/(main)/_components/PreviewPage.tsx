@@ -15,11 +15,11 @@ import { useDispatch, useSelector } from 'react-redux';
 import { useSidebar } from '../_hooks/useSidebar';
 import Analytics from '../_services/Analytics';
 import LogService from '../_services/logService';
-import { DatePicker } from './DatePicker';
 import GeminiIcon from './GeminiIcon';
 import MDPreview from './MDPreview';
 import PreviewAction from './PreviewAction';
 import PSAccordion from './PSAccordian';
+import { DatePicker } from './ui/DatePicker';
 
 const PreviewPage = ({ logId }: { logId: string }) => {
 	const logService = new LogService();

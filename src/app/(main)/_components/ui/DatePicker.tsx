@@ -4,9 +4,9 @@ import { cn } from '@nextui-org/react';
 import { CalendarIcon } from '@radix-ui/react-icons';
 import React from 'react';
 import { useSelector } from 'react-redux';
+import { Popover, PopoverContent, PopoverTrigger } from '../popover';
 import { Button } from './button';
 import { Calendar } from './calendar';
-import { Popover, PopoverContent, PopoverTrigger } from './popover';
 
 interface DatePickerProps {
     selected?: Date;

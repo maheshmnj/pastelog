@@ -6,7 +6,7 @@ import { toast } from 'react-toastify';
 import Analytics from '../../_services/Analytics';
 import GradientText from '../GradientText';
 import PSInput from '../PSInput';
-import { Button } from '../button';
+import { Button } from '../ui/button';
 interface GeminiDialogProps {
     isOpen: boolean;
     onClose: () => void;

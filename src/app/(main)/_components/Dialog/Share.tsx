@@ -5,7 +5,7 @@ import { ClipboardCopyIcon, EyeOpenIcon } from '@radix-ui/react-icons';
 import React from 'react';
 import { toast } from 'react-toastify';
 import IconButton from '../IconButton';
-import { Button } from '../button';
+import { Button } from '../ui/button';
 interface ShareDialogProps {
     isOpen: boolean;
     onClose: () => void;

@@ -9,7 +9,7 @@ import { useRouter } from 'next/navigation';
 import { useCallback, useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Analytics from '../../_services/Analytics';
-import { Dialog, DialogContent, DialogTrigger } from '../dialog';
+import { Dialog, DialogContent, DialogTrigger } from '../ui/dialog';
 import IconButton from '../IconButton';
 
 export function SearchDialog() {

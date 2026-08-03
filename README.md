@@ -34,8 +34,7 @@ git clone
 2. Install the dependencies
 
 ```bash
-
-npm install
+yarn install
 ```
 
 3. Add the .env in the root with the following keys
@@ -63,7 +62,7 @@ NEXT_PUBLIC_GITHUB_GIST_API=https://api.github.com/gists
 3. Run the project
 
 ```bash
-npm run dev
+yarn dev
 ```
 
 ### Folder Structure

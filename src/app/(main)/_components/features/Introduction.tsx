@@ -2,7 +2,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
 import { useEffect, useState } from 'react';
 import GradientText from '../GradientText';
-import { Button } from '../button';
+import { Button } from '../ui/button';
 
 interface IntroductionProps {
     loading: boolean;

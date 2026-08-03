@@ -128,3 +128,11 @@
         transform: translateY(-20px);
     }
 }
+
+/* Custom Editor Styles */
+[contenteditable][data-placeholder]:empty:before {
+    content: attr(data-placeholder);
+    color: #9ca3af;
+    pointer-events: none;
+    position: absolute;
+}

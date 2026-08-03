@@ -14,4 +14,4 @@ jobs:
         run: echo "${{ secrets.PASTELOG_ENV }}" > .env
 
       # Install dependencies and build the project
-      - run: npm ci && npm run build
+      - run: yarn install --frozen-lockfile && yarn build

@@ -2,7 +2,7 @@ import { Modal, ModalBody, ModalContent, ModalFooter, ModalHeader } from '@nextu
 import { UploadIcon } from '@radix-ui/react-icons';
 import React, { useEffect, useState } from 'react';
 import PSInput from '../PSInput';
-import { Button } from '../button';
+import { Button } from '../ui/button';
 interface ImportDialogProps {
     isOpen: boolean;
     onClose: () => void;

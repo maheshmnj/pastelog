@@ -14,11 +14,11 @@ import { useSelector } from 'react-redux';
 import { toast } from 'react-toastify';
 import Analytics from '../_services/Analytics';
 import LogService from '../_services/logService';
-import { Button } from './button';
 import CopyIcon from './CopyIcon';
 import ShareDialog from './Dialog/Share';
 import PSDropdown from './Dropdown';
 import IconButton from './IconButton';
+import { Button } from './ui/button';
 
 interface PreviewActionProps {
     isEditing: boolean,
